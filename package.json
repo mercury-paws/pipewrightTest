@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mercury-paws/pipewrightTest.git"
+    "url": "git+https://github.com/mercury-paws/playwrightTest.git"
   },
   "keywords": [
     "playwright",
@@ -23,7 +23,7 @@
   ],
   "author": "mp",
   "license": "ISC",
-  "homepage": "https://github.com/mercury-paws/pipewrightTest#readme",
+  "homepage": "https://github.com/mercury-paws/playwrightTest#readme",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.14.1"
