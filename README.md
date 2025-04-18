@@ -1,0 +1,2 @@
+- This test uses Playwright with TypeScript to automate the registration flow. 
+- The script checks whether an error is shown when using a public email domain. 

@@ -1,7 +1,8 @@
 import {  expect, Page } from '@playwright/test';
+import { homePage } from './constants';
 
 const goToForumPage = async (page: Page) => {
-  await page.goto('https://www.veeam.com/', { waitUntil: 'domcontentloaded' });
+  await page.goto(homePage, { waitUntil: 'domcontentloaded' });
   const supportButton = page.locator('button', { hasText: /support/i });
   await supportButton.waitFor({ state: 'visible' });
   await expect(supportButton).toBeVisible();

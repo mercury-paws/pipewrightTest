@@ -1,6 +1,7 @@
 {
   "name": "test",
   "version": "1.0.0",
+  "description": "veeam-ui-register-test",
   "main": "index.js",
   "scripts": {
      "test": "npx playwright test",
@@ -12,10 +13,17 @@
     "ui": "npx playwright test --ui",
     "report": "npx playwright show-report"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercury-paws/pipewrightTest.git"
+  },
+  "keywords": [
+    "playwright",
+    "test"
+  ],
+  "author": "mp",
   "license": "ISC",
-  "description": "",
+  "homepage": "https://github.com/mercury-paws/pipewrightTest#readme",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.14.1"
