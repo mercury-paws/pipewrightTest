@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "test": "npx playwright test",
+    "watch": "playwright test --watch",
+    "failed": "npx playwright test --last-failed",
+    "codegen": "npx playwright codegen https://www.veeam.com/",
+    "debug": "npx playwright test --debug",
+    "chrome": "npx playwright test --project=chromium",
+    "ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1"
+  }
+}
